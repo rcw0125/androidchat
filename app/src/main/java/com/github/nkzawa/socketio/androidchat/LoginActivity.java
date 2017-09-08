@@ -36,7 +36,7 @@ public class LoginActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-
+        //修改
         ChatApplication app = (ChatApplication) getApplication();
         mSocket = app.getSocket();
         mSocket.connect();

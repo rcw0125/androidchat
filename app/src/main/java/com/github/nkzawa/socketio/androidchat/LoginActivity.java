@@ -42,7 +42,7 @@ public class LoginActivity extends Activity {
         mSocket.connect();
 
 
-
+  //第二次
         // Set up the login form.
         mUsernameView = (EditText) findViewById(R.id.username_input);
         returnText= (EditText) findViewById(R.id.return_input);
